@@ -1,0 +1,2 @@
+Prefix plugins/GOCluster/example/
+Plugin GOCluster inputfile parameters.viz.txt outputfile cluster.pdf
