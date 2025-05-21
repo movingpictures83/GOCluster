@@ -34,5 +34,6 @@ cluster_GO(
     go_id = parameters["GOid", 2], result = BP.5, eSet=AlvMac, 
     cex.main=1, cex=0.6, main.Lsplit=30,#
     f='Group', subset=list(Time=c('24H','48H')))
+write.csv(BP.5$GO$ave_score, paste(outputfile, "csv", sep="."))
 }
 
